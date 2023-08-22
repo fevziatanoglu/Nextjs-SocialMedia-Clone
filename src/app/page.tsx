@@ -1,15 +1,16 @@
+import { PostItem } from "@/components/client-components/postitem";
 import LeftSideBar from "@/components/leftsidebar";
+import { MainComponent } from "@/components/maincomponent";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen px-20 relative bg-black flex flex-row ">
-      
-      <LeftSideBar/>
-
-      <section className=" bg-yellow-400">side bar</section>
-
-      <section className=" bg-yellow-400">side bar</section>
+    <div className=" px-20 relative  bg-black flex flex-row ">
+      {/* side bar */}
+      <LeftSideBar />
+      {/* time line */}
+      <MainComponent/>
     </div>
   );
 }

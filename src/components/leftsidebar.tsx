@@ -23,7 +23,7 @@ const NAV_ITEMS = [
 
 export default function LeftSideBar() {
   return (
-    <section className=" left-0 h-screen w-72 bg-black flex  flex-col pb-6">
+    <section className="sticky left-0 top-0 h-screen w-72 bg-black flex  flex-col pb-6">
         <div className="h-full flex  flex-col items-start gap-3 py-2">
           {/* main nav button */}
           <Link
